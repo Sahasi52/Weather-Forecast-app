@@ -1,55 +1,55 @@
-# Weather-Forecast-app
-
 # 🌍 Weather Forecast App using Java Swing
 
-A desktop application built with **Java Swing** that displays global weather forecasts and real-time room temperature & humidity using an **ESP32** and **DHT22 sensor**. It integrates **OpenWeatherMap API** for global data and the **Blynk IoT platform** for live sensor readings.
-
----
+This Java Swing application provides weather forecasts for any location worldwide and displays real-time room temperature and humidity. It utilizes the **OpenWeatherMap API** for global weather data and the **Blynk IoT platform**, in conjunction with an **ESP32** microcontroller and a **DHT22** sensor, for local room environment monitoring.
 
 ## 🚀 Features
 
-- **🌐 Global Weather Forecast**  
-  Get current weather data for any city worldwide, including:
-  - Temperature
-  - Weather description
-  - Feels like temperature
-  - Min/Max temperature
-  - Humidity
-  - Wind speed
-
-- **🌤️ Visual Weather Icons**  
-  Dynamic icons based on current weather conditions.
-
-- **🌡️ Room Environment Monitoring**  
-  Real-time temperature and humidity from an ESP32 + DHT22 sensor using Blynk.
-
-- **📍 Location Search**  
-  Search for weather info for any city using the OpenWeatherMap API.
-
-- **🔁 Dynamic Updates**  
-  Periodic updates of room temperature and humidity readings.
-
-- **🎨 Custom Look and Feel**  
-  Enhanced UI using **JTattoo Aluminium** theme.
-
----
+- **Global Weather Forecast**  
+  Displays current weather conditions (temperature, description, feels like, min/max temperature, humidity, wind speed) for any searched city.
+  
+- **Visual Weather Icons**  
+  Shows appropriate icons based on the current weather condition.
+  
+- **Room Environment Monitoring**  
+  Shows live room temperature and humidity readings obtained from an ESP32 and DHT22 sensor via Blynk.
+  
+- **Location Search**  
+  Allows users to search for weather information for different locations.
+  
+- **Dynamic Updates**  
+  Room temperature and humidity data are updated periodically.
+  
+- **Custom Look and Feel**  
+  Uses the JTattoo Aluminium Look and Feel for the UI.
 
 ## 🛠 Technologies Used
 
-- **💻 Application**
-  - **Java Swing** – GUI Framework
-  - **Apache Maven** – Build tool
+- **Application Framework**: Java Swing  
+- **APIs & Services**:
+  - [OpenWeatherMap API](https://openweathermap.org/api) (for global weather data)
+  - [Blynk IoT Platform](https://blynk.io/) (for sensor data transmission and retrieval)
+- **Hardware**:
+  - ESP32 Microcontroller
+  - DHT22 Temperature and Humidity Sensor
+- **Build Tool**: Apache Maven
+- **Libraries**:
+  - `org.json` (for JSON processing)
+  - `com.google.code.gson` (for JSON processing)
+  - `com.googlecode.json-simple` (for JSON processing - see Setup)
+  - `com.jtattoo.JTattoo` (for UI Look and Feel - see Setup)
 
-- **🌐 APIs & Platforms**
-  - **OpenWeatherMap API** – Global weather data
-  - **Blynk IoT Platform** – Real-time sensor data
+## ⚙️ Setup and Installation
 
-- **📡 Hardware**
-  - **ESP32 Microcontroller**
-  - **DHT22 Temperature & Humidity Sensor**
+### Prerequisites
 
-- **📚 Libraries**
-  - `org.json` – JSON parsing
-  - `com.google.code.gson` – JSON processing
-  - `com.googlecode.json-simple` – Alternate JSON handling
-  - `com.jtattoo.JTattoo` – Look and Feel (Aluminium theme)
+- Java Development Kit (JDK) 22 or higher.
+- Apache Maven.
+- Arduino IDE (for ESP32 setup).
+- Git (for cloning the repository).
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/farhankabirsifat/Weather-Forecast-app-using-Java-swing.git
+cd Weather-Forecast-app-using-Java-swing
+
