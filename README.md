@@ -2,6 +2,10 @@
 
 This Java Swing application provides weather forecasts for any location worldwide and displays real-time room temperature and humidity. It utilizes the **OpenWeatherMap API** for global weather data and the **Blynk IoT platform**, in conjunction with an **ESP32** microcontroller and a **DHT22** sensor, for local room environment monitoring.
 
+![Logo](./logo.png)
+
+---
+
 ## 🚀 Features
 
 - **Global Weather Forecast**  
@@ -21,6 +25,8 @@ This Java Swing application provides weather forecasts for any location worldwid
   
 - **Custom Look and Feel**  
   Uses the JTattoo Aluminium Look and Feel for the UI.
+
+---
 
 ## 🛠 Technologies Used
 
