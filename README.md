@@ -37,19 +37,19 @@ A desktop application built with **Java Swing** that displays global weather for
 ## 🛠 Technologies Used
 
 - **💻 Application**
-- **Java Swing** – GUI Framework
-- **Apache Maven** – Build tool
+  - **Java Swing** – GUI Framework
+  - **Apache Maven** – Build tool
 
 - **🌐 APIs & Platforms**
-- **OpenWeatherMap API** – Global weather data
-- **Blynk IoT Platform** – Real-time sensor data
+  - **OpenWeatherMap API** – Global weather data
+  - **Blynk IoT Platform** – Real-time sensor data
 
 - **📡 Hardware**
-- **ESP32 Microcontroller**
-- **DHT22 Temperature & Humidity Sensor**
+  - **ESP32 Microcontroller**
+  - **DHT22 Temperature & Humidity Sensor**
 
 - **📚 Libraries**
-- `org.json` – JSON parsing
-- `com.google.code.gson` – JSON processing
-- `com.googlecode.json-simple` – Alternate JSON handling
-- `com.jtattoo.JTattoo` – Look and Feel (Aluminium theme)
+  - `org.json` – JSON parsing
+  - `com.google.code.gson` – JSON processing
+  - `com.googlecode.json-simple` – Alternate JSON handling
+  - `com.jtattoo.JTattoo` – Look and Feel (Aluminium theme)
