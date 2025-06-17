@@ -1,4 +1,4 @@
-# 🌍 Weather Forecast App using Java Swing
+# 🌦️ Weather-Forecast-app
 
 This Java Swing application provides weather forecasts for any location worldwide and displays real-time room temperature and humidity. It utilizes the **OpenWeatherMap API** for global weather data and the **Blynk IoT platform**, in conjunction with an **ESP32** microcontroller and a **DHT22** sensor, for local room environment monitoring.
 
